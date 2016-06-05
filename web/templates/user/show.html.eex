@@ -1,0 +1,14 @@
+<h1>Showing <%= first_name(@user) %></h1>
+<table class="table">
+  <tr>
+    <th>Id</th>
+    <th>Name</th>
+    <th>Username</th>
+  </tr>
+  <tr>
+    <td><%= @user.id %></td>
+    <td><%= @user.name %></td>
+    <td><%= @user.username %></td>
+  </tr>
+</table>
+<%= link "Back", to: user_path(@conn, :index) %>
