@@ -1,6 +1,7 @@
 # Rumbl
+[![Build Status](https://semaphoreci.com/api/v1/leeourand/rumbl/branches/master/badge.svg)](https://semaphoreci.com/leeourand/rumbl)
 
-Just following along in the Pragmatic Programmer's _Programming Phoenix_.
+Just following along in the Pragmatic Programmer's [Programming Phoenix](https://pragprog.com/book/phoenix/programming-phoenix).
 
 To start this Phoenix app:
 
