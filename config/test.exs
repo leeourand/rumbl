@@ -14,4 +14,6 @@ config :rumbl, Rumbl.Repo,
   adapter: Ecto.Adapters.Postgres,
   database: "rumbl_test",
   hostname: "localhost",
+  username: System.get_env("DATABASE_POSTGRESQL_USERNAME") || "postgres",
+  password: System.get_env("DATABASE_POSTGRESQL_PASSWORD") || "password",
   pool: Ecto.Adapters.SQL.Sandbox
